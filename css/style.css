@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    width: 100%;
+    height: 660px;
+    background-image: url('https://images.unsplash.com/photo-1429041966141-44d228a42775?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnJpZGdlfGVufDB8fDB8fHww&w=1000&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    isolation: isolate;
+}
+
+
+
+#main::after {
+    content: "";
+    position: absolute;
+    inset: 0px;
+    z-index: -1;
+    background-color: rgb(52 52 52 / 47%);
+}
+
+
+/* Header Start */
+.header {
+    width: 80%;
+    
+    margin: 0 auto;
+    height: 50px;
+    
+}
+.logo {
+    width: 15%;
+    
+    float: left;
+}
+.logo h3 {
+    font-size: 32px;
+    color: #fff;
+    margin-top: 5px;
+    font-family: system-ui;
+}
+.menu {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.menu ul {
+    list-style: none;
+    margin-left: 88px;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    display: block;
+    margin-top: 5px;
+    font-size: 17px;
+    font-family: system-ui;
+    font-weight: 500;
+}
+.btn{}
+.btn button {
+    padding: 10px 28px;
+    margin-top: 11px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 4px;
+    font-family: system-ui;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 17px;
+}
+.btn button:Hover {
+    background: #fff;
+    color: #6B02FF;
+    transition: .09s;
+}
+/* Header end */
+
+
+/* Hero Start */
+.hero {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+}
+.hero h1 {
+    color: #fff;
+    font-size: 43px;
+    font-family: system-ui;
+    padding: 8px 0px;
+
+}
+.hero p {
+    color: #ffffff;
+    padding: 25px;
+    font-size: 19px;
+    width: 75%;
+    margin: 0 auto;
+    font-family: system-ui;
+}
+
+.form {
+    width: 50%;
+    margin: auto;
+}
+.form input {
+    padding: 24px 191px 20px 9px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #6B02FF;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+}
+::placeholder{
+    font-size: 15px;
+}
+.form label {
+    padding: 21px 35px;
+    background: linear-gradient(135deg, #6B02FF 0%, #985BEF 100%);
+    color: #fff;
+    text-transform: capitalize;
+    font-family: system-ui;
+    margin-left: -4px;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0px;
+}
+
+/* Hero Start */
+
+/* Branding Start */
+
+#brandig_site{}
+.brandig_img {
+    background: #E8EEEE;
+    width: 100%;
+    height: 12vh;
+}
+.brandig_img ul {
+    margin: 0 auto;
+    width: 84%;
+}
+.brandig_img ul li {
+    float: left;
+    padding: 0px 45px;
+    list-style: none;
+    padding-top: 24px;
+}
+.brandig_img ul li img {
+    width: 130px;
+}
+
+/* Branding end */
+
+
+/* content Start */
+#main_content{
+    margin-top: 50px;
+}
+.content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.content h1 {
+    font-size: 50px;
+    font-family: system-ui;
+    color: #292929;
+}
+.content p {
+    width: 53%;
+    margin: auto;
+    font-size: 19px;
+    margin-top: 32px;
+    font-family: system-ui;
+    color: #7c8595;
+}
+.main_card{
+    width: 100%;
+    margin-top: 60px;
+}
+.card {
+    width: 32.4%;
+    float: left;
+}
+.icon {
+    font-size: 50px;
+    color: #8FB0EF;
+}
+.icon i{}
+
+
+.card h2 {
+    font-size: 23px;
+    font-family: system-ui;
+    margin-top: 18px;
+    color: #292929;
+}
+.card p{
+    font-family: system-ui;
+    color: #7c8595;
+}
+/* content end */
+
+#container {
+    background: #E8EEEE;
+    height: 360px;
+    padding: 62px 0;
+}
+.container {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    
+}
+.leftcontent{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.img img {
+    width: 100%;
+}
+.rightcontent {
+    width: 46%;
+    height: 100%;
+    float: left;
+    margin-left: 32px;
+}
+.rightcontent h2 {
+    font-size: 25px;
+    font-family: system-ui;
+    margin-top: -5px;
+    color: #292929;
+}
+.rightcontent p{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #7c8595;
+}
+.list{
+    margin-top: 22px;
+}
+.list ul{
+    list-style-type: none;
+}
+.list ul li{
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: system-ui;
+    color: #7c8595;
+}
+.list ul li span {
+    margin-right: 12px;
+    font-size: 21px;
+    color: rgb(107, 2, 255);
+}
+
+.btn_dis{}
+.btn_dis button {
+    background: linear-gradient(135deg, rgb(107, 2, 255) 0%, rgb(152, 91, 239) 100%);
+    padding: 12px 30px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: system-ui;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* content end */
